@@ -161,4 +161,14 @@ body {
   z-index: 4;
   opacity: 1;
 }
+#gdragon {
+  height: 380px;
+  position: absolute;
+
+  position: absolute;
+  top: 290px;
+  left: -29px;
+  z-index: -1;
+}
+
 
