@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(bg.jpg);
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+}
+#cyberghost {
+  position: absolute;
+  top: 10px;
+  height: 50px;
+  width: 250px;
+}
+.sitename {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+.topcolor {
+  display: flex;
+  position: fixed;
+  width: 1600px;
+  background: linear-gradient(
+    90deg,
+    rgba(211, 255, 0, 1) 14%,
+    rgba(0, 255, 205, 1) 72%
+  );
+  height: 80px;
+  opacity: 0.8;
+}
+.nav {
+  display: flex;
+  gap: 60px;
+}
+.nav h1 {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+.nav span {
+  display: flex;
+  position: relative;
+  top: 20px;
+  left: 600px;
+  font-size: 22px;
+}
+.nav span:hover {
+  color: transparent;
+  -webkit-text-stroke-color: yellow;
+  -webkit-text-stroke-width: 1px;
+}
+#cart {
+  height: 100px;
+  width: 140px;
+  display: flex;
+  position: absolute;
+  left: 1200px;
+  top: -10px;
+}
+#button {
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(180deg, #d7c202 -67.82%, #ffa620);
+  padding-left: 18px;
+  border-radius: 8%;
+  width: 120px;
+  display: flex;
+  position: absolute;
+  left: 1400px;
+  top: 20px;
+  color: white;
+}
+#button:hover {
+  background: linear-gradient(90deg, #ffec40 -67.82%, #ffa620);
+}
+
+.main {
+  display: flex;
+}
+.main h1 {
+  position: absolute;
+  top: 400px;
+  left: 160px;
+
+  font-size: 100px;
+  font-weight: bolder;
+  font-weight: 900;
+}
+.main p {
+  position: absolute;
+  top: 620px;
+  left: 160px;
+
+  font-size: 30px;
+  font-weight: 900;
+}
+.main h2 {
+  position: absolute;
+  top: 542px;
+  left: 160px;
+  font-size: 76px;
+  font-weight: 900;
+  letter-spacing: -5px;
+}
+#portal {
+  height: 800px;
+  position: absolute;
+  top: 45px;
+  left: 676px;
+}
+#rick {
+  height: 348px;
+  position: absolute;
+  top: 270px;
+  left: 1053px;
+  animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#zoro {
+  height: 380px;
+  position: absolute;
+  top: 140px;
+  left: 940px;
+  z-index: -1;
+  rotate: -15deg;
+}
+#greenring {
+  height: 380px;
+  position: absolute;
+  top: 140px;
+  left: 1364px;
+  z-index: -1;
+}
