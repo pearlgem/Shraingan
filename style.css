@@ -151,3 +151,14 @@ body {
   left: 1364px;
   z-index: -1;
 }
+#dragon {
+  height: 380px;
+  position: absolute;
+  height: 241px;
+  position: absolute;
+  top: 560px;
+  left: 1120px;
+  z-index: 4;
+  opacity: 1;
+}
+
